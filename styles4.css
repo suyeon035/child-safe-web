@@ -189,3 +189,121 @@ body, html {
         background-color: rgba(255, 0, 0, 0.5);
     }
 }
+/* 기본 스타일 (모바일 우선 접근 방식) */
+
+/* 태블릿 이상 (화면 너비 768px 이상) */
+@media (min-width: 768px) {
+  .moving-container {
+    left: 35%; /* 캐릭터 위치 조정 */
+  }
+
+  .moving-image {
+    width: 700px; /* 캐릭터 크기 축소 */
+  }
+
+  .container {
+    right: 150px; /* 고정된 위치 변경 */
+  }
+
+  .static-image {
+    width: 650px; /* 정적 이미지 크기 축소 */
+  }
+
+  .text-box {
+    font-size: 25px; /* 텍스트 박스 폰트 크기 감소 */
+    padding: 15px;
+    min-width: 250px;
+  }
+
+  #start-button {
+    font-size: 20px; /* 버튼 크기 감소 */
+    padding: 8px 16px;
+  }
+
+  .warning-text {
+    font-size: 40px; /* 경고 텍스트 크기 감소 */
+  }
+
+  .prevent-button {
+    font-size: 25px; /* 예방 버튼 크기 감소 */
+    padding: 10px 20px;
+  }
+}
+
+/* 데스크톱 이상 (화면 너비 1024px 이상) */
+@media (min-width: 1024px) {
+  .moving-container {
+    left: 40%; /* 캐릭터 위치 원래대로 */
+  }
+
+  .moving-image {
+    width: 800px; /* 캐릭터 크기 원래대로 */
+  }
+
+  .container {
+    right: 200px; /* 정적 이미지 위치 원래대로 */
+  }
+
+  .static-image {
+    width: 700px; /* 정적 이미지 크기 원래대로 */
+  }
+
+  .text-box {
+    font-size: 30px; /* 텍스트 박스 폰트 크기 원래대로 */
+    padding: 20px;
+    min-width: 300px;
+  }
+
+  #start-button {
+    font-size: 25px; /* 버튼 크기 원래대로 */
+    padding: 10px 20px;
+  }
+
+  .warning-text {
+    font-size: 50px; /* 경고 텍스트 크기 원래대로 */
+  }
+
+  .prevent-button {
+    font-size: 30px; /* 예방 버튼 크기 원래대로 */
+    padding: 12px 24px;
+  }
+}
+
+/* 대형 화면 (화면 너비 1400px 이상) */
+@media (min-width: 1400px) {
+  .moving-container {
+    left: 45%; /* 캐릭터 위치 확대 */
+  }
+
+  .moving-image {
+    width: 930px; /* 캐릭터 크기 확대 */
+  }
+
+  .container {
+    right: 250px; /* 정적 이미지 위치 확대 */
+  }
+
+  .static-image {
+    width: 880px; /* 정적 이미지 크기 확대 */
+  }
+
+  .text-box {
+    font-size: 35px; /* 텍스트 박스 폰트 크기 확대 */
+    padding: 25px;
+    min-width: 350px;
+  }
+
+  #start-button {
+    font-size: 30px; /* 버튼 크기 확대 */
+    padding: 12px 30px;
+  }
+
+  .warning-text {
+    font-size: 60px; /* 경고 텍스트 크기 확대 */
+  }
+
+  .prevent-button {
+    font-size: 35px; /* 예방 버튼 크기 확대 */
+    padding: 15px 30px;
+  }
+}

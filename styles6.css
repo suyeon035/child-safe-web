@@ -329,3 +329,144 @@ body, html {
 .completion-button:active {
     transform: scale(0.95); /* 클릭 시 살짝 줄어드는 효과 */
 }
+
+/* 작은 화면 (모바일) */
+@media screen and (max-width: 768px) {
+    .background-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-image {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 10px;
+    }
+
+    .text-container {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #start-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .arrow-button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .quiz-content {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .quiz-button {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .next-quiz-button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .completion-container {
+        padding: 20px 10px;
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .completion-button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+/* 중간 화면 (태블릿) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-image {
+        max-width: 600px;
+    }
+
+    .text-container {
+        font-size: 20px;
+    }
+
+    #start-button {
+        font-size: 18px;
+    }
+
+    .arrow-button {
+        font-size: 22px;
+    }
+
+    .quiz-content {
+        font-size: 22px;
+    }
+
+    .quiz-button {
+        font-size: 45px;
+    }
+
+    .next-quiz-button {
+        font-size: 18px;
+    }
+
+    .completion-container {
+        font-size: 18px;
+    }
+
+    .completion-button {
+        font-size: 18px;
+    }
+}
+
+/* 큰 화면 (데스크탑) */
+@media screen and (min-width: 1025px) {
+    .background-container {
+        padding: 20px;
+    }
+
+    .main-image {
+        max-width: 800px;
+    }
+
+    .text-container {
+        font-size: 24px;
+    }
+
+    #start-button {
+        font-size: 20px;
+    }
+
+    .arrow-button {
+        font-size: 24px;
+    }
+
+    .quiz-content {
+        font-size: 24px;
+    }
+
+    .quiz-button {
+        font-size: 50px;
+    }
+
+    .next-quiz-button {
+        font-size: 20px;
+    }
+
+    .completion-container {
+        font-size: 20px;
+    }
+
+    .completion-button {
+        font-size: 20px;
+    }
+}
+

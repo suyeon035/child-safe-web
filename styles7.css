@@ -316,3 +316,156 @@ button {
     box-shadow: 0 0 25px rgba(255, 230, 150, 0.9), 0 0 45px rgba(255, 150, 150, 0.7);
   }
 }
+
+/* 모바일 (최대 768px) */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .quest-button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+  .card-slot {
+    width: 200px;
+    height: 300px;
+    margin-right: 5px;
+  }
+
+  .card-slot img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .flip-card {
+    width: 250px;
+    height: 350px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .modal-title {
+    font-size: 2rem;
+  }
+
+  .modal-description {
+    font-size: 1.2rem;
+  }
+
+  .restart-button {
+    font-size: 1.5rem;
+    padding: 8px 16px;
+  }
+}
+
+/* 태블릿 (769px ~ 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
+  .quest-button {
+    font-size: 1.6rem;
+    padding: 12px 24px;
+  }
+
+  .card-slot {
+    width: 250px;
+    height: 375px;
+    margin-right: 10px;
+  }
+
+  .card-slot img {
+    width: 250px;
+    height: 375px;
+  }
+
+  .flip-card {
+    width: 300px;
+    height: 450px;
+  }
+
+  .modal-content {
+    padding: 25px;
+    width: 80%;
+    font-size: 1.8rem;
+  }
+
+  .modal-title {
+    font-size: 2.5rem;
+  }
+
+  .modal-description {
+    font-size: 1.6rem;
+  }
+
+  .restart-button {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+  }
+}
+
+/* 데스크탑 (1025px 이상) */
+@media screen and (min-width: 1025px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .quest-button {
+    font-size: 1.8rem;
+    padding: 14px 28px;
+  }
+
+  .card-slot {
+    width: 300px;
+    height: 450px;
+    margin-right: 15px;
+  }
+
+  .card-slot img {
+    width: 300px;
+    height: 450px;
+  }
+
+  .flip-card {
+    width: 400px;
+    height: 550px;
+  }
+
+  .modal-content {
+    padding: 30px;
+    width: 60%;
+    font-size: 2rem;
+  }
+
+  .modal-title {
+    font-size: 3rem;
+  }
+
+  .modal-description {
+    font-size: 2rem;
+  }
+
+  .restart-button {
+    font-size: 1.8rem;
+    padding: 12px 24px;
+  }
+}

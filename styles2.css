@@ -48,7 +48,7 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100px;
+  height: 80px;
   min-width: 300px;
   transition: all 0.3s ease;
 }
@@ -203,25 +203,6 @@ html {
   }
 }
 
-@media (max-width: 768px) {
-  .text-overlay {
-    font-size: 40px;
-  }
-
-  .slide-in {
-    width: 400px;
-  }
-
-  .message-box {
-    font-size: 30px;
-    padding: 20px;
-  }
-
-  #start-button {
-    font-size: 1.5em;
-    padding: 15px 30px;
-  }
-}
 
 /* 다음 페이지 버튼 */
 #proceed-button {
@@ -240,4 +221,62 @@ html {
 
 #proceed-button:hover {
   background-color: #388e3c; /* 진한 초록색 */
+}
+
+@media (max-width: 1400px) {
+  .text-overlay {
+    left: 50%;
+    font-size: 25px;
+  }
+
+  .slide-in {
+    width: 400px;
+  }
+
+  .message-box {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    font-size: 20px;
+  }
+
+  .slide-in {
+    width: 300px;
+  }
+
+  .message-box {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #start-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .text-overlay {
+    font-size: 16px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+  }
+
+  .slide-in {
+    width: 250px;
+  }
+
+  #start-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .message-box {
+    font-size: 18px;
+    padding: 15px;
+  }
 }

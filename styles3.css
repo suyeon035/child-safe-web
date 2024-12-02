@@ -280,3 +280,147 @@ html {
 #music-toggle-button:hover {
   background-color: #e9ecef; /* 버튼 hover 시 배경색 */
 }
+
+/* 태블릿 이상 (화면 너비가 768px 이상) */
+@media (min-width: 768px) {
+  .background-container {
+    height: 100vh;
+  }
+
+  .hidden-object {
+    width: 150px; /* 이미지 크기 감소 */
+  }
+
+  .hearts-container {
+    font-size: 2.5rem; /* 하트 크기 축소 */
+    gap: 10px; /* 하트 간격 축소 */
+  }
+
+  .timer {
+    font-size: 2.5rem; /* 타이머 텍스트 크기 축소 */
+    padding: 10px;
+  }
+
+  .progress-bar {
+    width: 250px; /* 진행 바 너비 축소 */
+    height: 25px; /* 진행 바 높이 축소 */
+  }
+
+  .message-box {
+    width: 500px; /* 메시지 박스 크기 축소 */
+    padding: 20px;
+    font-size: 1.5rem; /* 메시지 텍스트 크기 축소 */
+  }
+
+  .rule-box {
+    width: 500px; /* 규칙 박스 크기 축소 */
+    padding: 30px 50px; /* 패딩 축소 */
+  }
+
+  .rule-box p {
+    font-size: 30px; /* 텍스트 크기 축소 */
+  }
+
+  .rule-box ul {
+    font-size: 25px; /* 리스트 텍스트 크기 축소 */
+  }
+
+  #restart-button,
+  #safety-button {
+    font-size: 1.2rem; /* 버튼 텍스트 크기 축소 */
+    padding: 8px 16px;
+  }
+
+  #hint-button {
+    font-size: 1.2rem; /* 힌트 버튼 텍스트 크기 축소 */
+  }
+
+  .hint-box {
+    width: 350px; /* 힌트 박스 너비 축소 */
+    font-size: 18px; /* 힌트 텍스트 크기 축소 */
+  }
+}
+
+/* 데스크톱 이상 (화면 너비가 1024px 이상) */
+@media (min-width: 1024px) {
+  .hidden-object {
+    width: 200px; /* 이미지 크기 원래대로 */
+  }
+
+  .hearts-container {
+    font-size: 3rem; /* 하트 크기 원래대로 */
+    gap: 15px; /* 하트 간격 원래대로 */
+  }
+
+  .timer {
+    font-size: 3rem; /* 타이머 텍스트 크기 원래대로 */
+    padding: 15px;
+  }
+
+  .progress-bar {
+    width: 300px; /* 진행 바 너비 원래대로 */
+    height: 30px; /* 진행 바 높이 원래대로 */
+  }
+
+  .message-box {
+    width: 600px; /* 메시지 박스 크기 원래대로 */
+    padding: 30px;
+    font-size: 2rem; /* 메시지 텍스트 크기 원래대로 */
+  }
+
+  .rule-box {
+    width: 600px; /* 규칙 박스 크기 원래대로 */
+    padding: 40px 60px; /* 패딩 원래대로 */
+  }
+
+  .rule-box p {
+    font-size: 40px; /* 텍스트 크기 원래대로 */
+  }
+
+  .rule-box ul {
+    font-size: 30px; /* 리스트 텍스트 크기 원래대로 */
+  }
+
+  #restart-button,
+  #safety-button {
+    font-size: 1.5rem; /* 버튼 텍스트 크기 원래대로 */
+    padding: 10px 20px;
+  }
+
+  #hint-button {
+    font-size: 1.5rem; /* 힌트 버튼 텍스트 크기 원래대로 */
+  }
+
+  .hint-box {
+    width: 400px; /* 힌트 박스 너비 원래대로 */
+    font-size: 20px; /* 힌트 텍스트 크기 원래대로 */
+  }
+}
+
+/* 대형 화면 (화면 너비가 1400px 이상) */
+@media (min-width: 1400px) {
+  .message-box {
+    width: 700px; /* 메시지 박스 크기 확대 */
+    font-size: 2.5rem; /* 메시지 텍스트 크기 확대 */
+  }
+
+  .rule-box {
+    width: 700px; /* 규칙 박스 크기 확대 */
+    font-size: 35px; /* 텍스트 크기 확대 */
+  }
+
+  #restart-button,
+  #safety-button {
+    font-size: 1.8rem; /* 버튼 텍스트 크기 확대 */
+    padding: 15px 25px;
+  }
+
+  #hint-button {
+    font-size: 1.8rem; /* 힌트 버튼 텍스트 크기 확대 */
+  }
+
+  .hint-box {
+    width: 450px; /* 힌트 박스 너비 확대 */
+    font-size: 22px; /* 힌트 텍스트 크기 확대 */
+  }
+}

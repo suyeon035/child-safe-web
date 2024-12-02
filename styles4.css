@@ -307,3 +307,46 @@ body, html {
     padding: 15px 30px;
   }
 }
+/* 모바일 화면 (최대 너비 576px 이하) */
+@media (max-width: 576px) {
+  .moving-container {
+    left: 20%; /* 캐릭터 위치를 더 중앙으로 */
+  }
+
+  .moving-image {
+    width: 300px; /* 캐릭터 크기 축소 */
+  }
+
+  .container {
+    right: 50px; /* 정적 이미지 위치 조정 */
+  }
+
+  .static-image {
+    width: 200px; /* 정적 이미지 크기 축소 */
+  }
+
+  .text-box {
+    font-size: 20px; /* 텍스트 박스 폰트 크기 감소 */
+    padding: 10px;
+    min-width: 200px; /* 최소 너비 감소 */
+  }
+
+  #start-button {
+    font-size: 16px; /* 버튼 크기 축소 */
+    padding: 8px 12px;
+  }
+
+  .warning-text {
+    font-size: 30px; /* 경고 텍스트 크기 축소 */
+  }
+
+  .prevent-button {
+    font-size: 20px; /* 예방 버튼 크기 축소 */
+    padding: 8px 16px;
+  }
+
+  .water-drop {
+    width: 30px; /* 물방울 크기 축소 */
+    height: 30px;
+  }
+}

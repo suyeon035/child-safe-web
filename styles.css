@@ -80,3 +80,42 @@ body {
 #scrollButton:hover {
   background-color: #0056b3; /* 버튼 호버 효과 */
 }
+/* 작은 디바이스 (스마트폰 가로 방향, 최대 너비 480px) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .image {
+    width: 100%;
+  }
+}
+
+/* 중간 디바이스 (태블릿 세로 방향, 481px ~ 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .image {
+    width: 90%;
+  }
+}
+
+/* 태블릿 가로 방향 또는 작은 랩톱 (769px ~ 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .image {
+    width: 80%;
+  }
+}
+
+/* 일반적인 데스크톱 (1025px 이상) */
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+  .image {
+    width: 70%;
+  }
+}

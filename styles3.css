@@ -424,3 +424,80 @@ html {
     font-size: 22px; /* 힌트 텍스트 크기 확대 */
   }
 }
+/* 모바일 화면 (최대 너비 576px 이하) */
+@media (max-width: 576px) {
+  .hidden-object {
+    width: 100px; /* 이미지 크기 축소 */
+  }
+
+  .hearts-container {
+    font-size: 2rem; /* 하트 크기 축소 */
+    gap: 8px; /* 하트 간격 축소 */
+  }
+
+  .timer {
+    font-size: 2rem; /* 타이머 텍스트 크기 축소 */
+    padding: 8px;
+  }
+
+  .progress-bar {
+    width: 200px; /* 진행 바 너비 축소 */
+    height: 20px; /* 진행 바 높이 축소 */
+  }
+
+  .message-box {
+    width: 350px; /* 메시지 박스 크기 축소 */
+    padding: 15px;
+    font-size: 1.2rem; /* 메시지 텍스트 크기 축소 */
+  }
+
+  .rule-box {
+    width: 300px; /* 규칙 박스 크기 축소 */
+    padding: 20px 30px; /* 패딩 축소 */
+    font-size: 1rem;
+  }
+
+  .rule-box p {
+    font-size: 20px; /* 텍스트 크기 축소 */
+  }
+
+  .rule-box ul {
+    font-size: 18px; /* 리스트 텍스트 크기 축소 */
+  }
+
+  #restart-button,
+  #safety-button {
+    font-size: 1rem; /* 버튼 텍스트 크기 축소 */
+    padding: 6px 12px; /* 버튼 크기 축소 */
+  }
+
+  #hint-button {
+    font-size: 1rem; /* 힌트 버튼 텍스트 크기 축소 */
+    padding: 6px 12px;
+  }
+
+  .hint-box {
+    width: 250px; /* 힌트 박스 너비 축소 */
+    font-size: 16px; /* 힌트 텍스트 크기 축소 */
+  }
+
+  #start-button {
+    font-size: 18px; /* 시작 버튼 크기 축소 */
+    padding: 8px 12px;
+  }
+
+  .water-drop {
+    width: 20px; /* 물방울 크기 축소 */
+    height: 20px;
+  }
+
+  .warning-text {
+    font-size: 25px; /* 경고 텍스트 크기 축소 */
+  }
+
+  .prevent-button {
+    font-size: 18px; /* 예방 버튼 크기 축소 */
+    padding: 8px 16px;
+  }
+}
+
